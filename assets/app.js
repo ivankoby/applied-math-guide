@@ -26,7 +26,7 @@
  var cur=$('#lecture-n');
  if(cur){try{localStorage.setItem(KL,cur.dataset.n)}catch(e){}}
  var go=$('#continue');
- if(go){try{var l=localStorage.getItem(KL);if(l){go.href='lectures/'+('0'+l).slice(-2)+'.html';go.innerHTML=ico('arrow-right')+'Продолжить: лекция '+l;go.classList.remove('hidden');var s2=$('#start-main');if(s2)s2.classList.add('hidden')}}catch(e){}}
+ if(go){try{var l=parseInt(localStorage.getItem(KL),10);if(l>=1&&l<=18){go.href='lectures/'+('0'+l).slice(-2)+'.html';go.innerHTML=ico('arrow-right')+'Продолжить: лекция '+l;go.classList.remove('hidden');var s2=$('#start-main');if(s2)s2.classList.add('hidden')}}catch(e){}}
  paint();
  var menu=$('#menu');
  if(menu){menu.addEventListener('click',function(e){e.stopPropagation();var o=document.body.classList.toggle('menu-open');menu.setAttribute('aria-expanded',o)});
