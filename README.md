@@ -5,3 +5,5 @@
 Статический сайт без сборки: откройте `index.html` или опубликуйте через GitHub Pages.
 
 > Это личный пересказ лекций для повторения. Лекции принадлежат их авторам; для строгих определений и доказательств смотрите оригиналы.
+
+Иконки: [Phosphor Icons](https://phosphoricons.com) (MIT). Шрифты: Shantell Sans и Nunito (SIL Open Font License), через Google Fonts.
