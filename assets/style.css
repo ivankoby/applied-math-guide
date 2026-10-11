@@ -6,8 +6,8 @@
  --on-pc:#FFFFFF;--ok:#0F5C3A;--ok-t:#D8F0E2;
  --pc:var(--blue);--pt:var(--blue-t);
  --f-head:"Shantell Sans","Comic Sans MS","Chalkboard SE",ui-rounded,system-ui,sans-serif;
- --f-body:"Nunito",ui-rounded,"SF Pro Rounded","Segoe UI",system-ui,sans-serif;
- --f-math:"STIX Two Math","Cambria Math","Latin Modern Math","Noto Serif",Georgia,serif;
+ --f-body:"Nunito",ui-rounded,"SF Pro Rounded","Segoe UI",system-ui,"Noto Sans Math",sans-serif;
+ --f-math:"STIX Two Math","Cambria Math","Latin Modern Math","Noto Sans Math","Noto Serif",Georgia,serif;
  --r1:8px;--r2:12px;--r3:16px;--sh1:2px 2px 0 var(--shadow);--sh2:4px 4px 0 var(--shadow);
  --s1:4px;--s2:8px;--s3:16px;--s4:24px;--s5:32px;--s6:48px;
  --fs-s:14px;--fs-b:17px;--fs-m:19px;--fs-l:24px;--fs-xl:34px;
