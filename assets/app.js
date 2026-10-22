@@ -35,7 +35,7 @@
    if(/INPUT|SELECT|TEXTAREA/.test((e.target||{}).tagName||'')||e.metaKey||e.ctrlKey||e.altKey)return;
    var a=e.key==='ArrowLeft'?$('a[rel=prev]'):e.key==='ArrowRight'?$('a[rel=next]'):null;if(a)location.href=a.href});
  var q=$('#q'),res=$('#results'),D=window.SEARCH||[];
- var kind={l:'Лекция',c:'Карточка',t:'Термин',f:'Формула'};
+ var kind={a:'Статья',l:'Лекция',c:'Карточка',t:'Термин',f:'Формула'};
  function root(){return document.body.dataset.root||''}
  function find(v){
    var tk=v.toLowerCase().split(/\s+/).filter(Boolean).map(function(w){return w.length>5?w.slice(0,w.length-2):w});if(!tk.length)return[];
